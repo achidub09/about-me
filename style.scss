@@ -1,0 +1,110 @@
+.all {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	font-family: 'Grechen Fuemen', serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 40px;
+}
+
+.i_m {
+	padding: 1rem 4rem;
+	display: flex;
+	justify-content: space-between;
+	.right {
+		.i_m_img {
+			text-align: center;
+			padding: 20px;
+			border: 1px solid;
+			h2 {
+				height: 0;
+				font-family: 'Grechen Fuemen', serif;
+				font-weight: 400;
+				font-style: normal;
+				font-size: 40px;
+			}
+			img {
+				width: 400px;
+				height: 400px;
+			}
+		}
+		.text {
+			h3 {
+				font-family: 'Grechen Fuemen', serif;
+				font-weight: 700;
+				font-style: normal;
+				display: flex;
+				font-size: 30px;
+			}
+			.pencl {
+				position: absolute;
+				left: 350px;
+				bottom: 30px;
+			}
+			div {
+				border: 1px solid;
+				padding: 2px;
+				text-align: center;
+
+				h5,
+				p {
+					font-family: 'Grechen Fuemen', serif;
+					font-weight: 700;
+					font-style: normal;
+					font-size: 30px;
+					height: 10px;
+				}
+			}
+		}
+	}
+	.left {
+		border: 1px solid;
+		border-radius: 20px;
+		padding: 2rem;
+		text-align: center;
+		.left_box {
+			padding: 20px;
+			border: 1px solid;
+			height: 100vh;
+			h4 {
+				font-family: 'Grechen Fuemen', serif;
+				font-weight: 600;
+				font-style: normal;
+				font-size: 40px;
+			}
+			.links {
+				display: grid;
+				place-items: center;
+				gap: 20px;
+				a {
+					text-decoration: none;
+				}
+				button {
+					width: 400px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					img {
+						width: 48px;
+						height: 48px;
+					}
+					font-family: 'Grechen Fuemen', serif;
+					font-weight: 600;
+					font-style: normal;
+					font-size: 20px;
+				}
+			}
+		}
+	}
+}
+.game {
+	margin-top: 100px;
+	display: grid;
+	place-items: center;
+	img {
+		width: 150px;
+		height: 150px;
+	}
+}
