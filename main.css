@@ -1,0 +1,114 @@
+.all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: "Grechen Fuemen", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.i_m {
+  padding: 1rem 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.i_m .right .i_m_img {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid;
+  background-color: rgb(218, 216, 213);
+}
+.i_m .right .i_m_img h2 {
+  height: 0;
+  font-family: "Grechen Fuemen", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+.i_m .right .i_m_img img {
+  width: 400px;
+  height: 400px;
+}
+.i_m .right .text h3 {
+  font-family: "Grechen Fuemen", serif;
+  font-weight: 700;
+  font-style: normal;
+  display: flex;
+  font-size: 40px;
+}
+.i_m .right .text .pencl {
+  position: absolute;
+  left: 350px;
+  bottom: 30px;
+}
+.i_m .right .text div {
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 3px;
+  text-align: center;
+}
+.i_m .right .text div h5,
+.i_m .right .text div p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Grechen Fuemen", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+}
+.i_m .left {
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 2rem;
+  text-align: center;
+}
+.i_m .left .left_box {
+  padding: 20px;
+  border: 1px solid;
+  height: 100vh;
+}
+.i_m .left .left_box h4 {
+  font-family: "Grechen Fuemen", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+}
+.i_m .left .left_box .links {
+  display: grid;
+  place-items: center;
+  gap: 20px;
+}
+.i_m .left .left_box .links a {
+  text-decoration: none;
+}
+.i_m .left .left_box .links button {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid;
+  font-family: "Grechen Fuemen", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+}
+.i_m .left .left_box .links button img {
+  width: 48px;
+  height: 48px;
+}
+
+.game {
+  margin-top: 100px;
+  display: grid;
+  place-items: center;
+}
+.game img {
+  width: 150px;
+  height: 150px;
+}
+
+/*# sourceMappingURL=main.css.map */
